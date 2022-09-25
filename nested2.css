@@ -1,0 +1,104 @@
+
+.backgroun{
+
+    background-image: url(images/gold.jpg);
+    height: 800px;
+    background-size: 100% 800px;
+}
+
+
+ul li{
+
+    float: left;
+    list-style: none;   
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    border-radius: 47%;
+
+     
+}
+
+.para{
+
+    position: relative;
+    left: 500px;
+    top: -500px;
+    font-size: 25px;
+    color: white;
+}
+ 
+
+button{
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 2px 2px rgb(87, 22, 22);
+    
+}
+   
+
+ul li>a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+ ul li>ul li{
+
+    display: none;
+    width: 120px;
+    margin-top: -20px;
+    padding: 2px;
+    position: relative;
+    top: 10px;
+    background: none;
+
+ 
+
+    
+}
+
+
+
+ul li:hover{
+    
+    background-color: gray;
+    font-size: 24px;
+    transition: 0.5s;
+    box-shadow: 2px 2px rgb(87, 22, 22);
+    box-shadow: 2px 2px rgb(98, 98, 66);
+          
+}
+
+.cheetah{
+
+    background-image: url(images/cheetah.jpg);
+}
+
+
+::-webkit-scrollbar{
+
+    width: 20px;
+}
+
+
+
+
+
+
+
+    
